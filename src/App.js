@@ -4,13 +4,12 @@ import Robin from './otters/otter2.jpg';
 import Maurice from './otters/otter3.jpg';
 import Lesley from './otters/otter4.jpg';
 import Barbara from './otters/otter5.jpg';
+import Header from './components/Header';
 
 function App() {
   return (
   <div>
-    <header className='header-component'>
-      <h1>Ottergram</h1>
-    </header>
+    <Header/>
     <ul className='post-list'>
         <li className='post-component'>
           <button>
